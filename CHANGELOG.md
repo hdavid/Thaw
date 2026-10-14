@@ -28,6 +28,7 @@ After you update:
 
 ### Changed: Settings
 
+- **Troubleshooting has two fewer buttons.** "Reset Control Center" is gone: on macOS 27 it also erased your choices in System Settings > Menu Bar, and "Restore Missing Items" brings items back without deleting anything. "Quit and Clear Cache" is gone too: saved item pictures are now thrown away after every update, which is what that button was for. By @diazdesandi.
 - **One switch replaces Apple's items.** Replace Control Center items in Layout also covers Time Machine and the Input Menu. Experiments had three switches for this. By @diazdesandi.
 - **The macOS 27 limitations notice names Apple's own items.** It says which ones macOS hides or refuses to hide. By @diazdesandi.
 - **The toolbar menu holds only what has no pane.** Show Descriptions, About, What's New and Check for Updates each have a row in a pane. Customize Sidebar is hidden in Simple Mode, where it did nothing. By @diazdesandi.
