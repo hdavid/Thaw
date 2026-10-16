@@ -1443,7 +1443,7 @@ extension ControlItem {
         guard let menu = menuController?.makeMenu() else {
             return
         }
-        statusItem.showMenu(menu)
+        Self.showMenuTraced(menu, statusItem: statusItem)
     }
 
     /// Presents the control item's menu at a screen location.
@@ -1459,7 +1459,7 @@ extension ControlItem {
         guard let menu = menuController?.makeMenu() else {
             return
         }
-        menu.popUp(positioning: nil, at: point, in: nil)
+        Self.popUpTraced(menu, at: point)
     }
 }
 
