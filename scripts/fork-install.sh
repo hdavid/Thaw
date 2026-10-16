@@ -4,7 +4,7 @@
 set -euo pipefail
 
 REPO="$(cd "$(dirname "$0")/.." && pwd)"
-BUILT="$REPO/build/dd/Build/Products/Release/Thaw.app"
+BUILT="$REPO/build/export/Thaw.app"
 TARGET="/Applications/Thaw.app"
 BACKUP="$HOME/GitHub/Thaw-official-backup.app"
 
